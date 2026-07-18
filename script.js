@@ -7,7 +7,10 @@ window.addEventListener("scroll", () => {
         header.style.background = "#222";
     }
 });
-
+function showIntro() {
+  const introText = document.getElementById("introText");
+  introText.classList.toggle("hidden");
+}
 const text = "Full Stack Developer";
 let index = 0;
 

@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="style.css">
 </head>
 
-<body> 
+<body>
 
   <header>
     <nav>
@@ -23,17 +23,54 @@
   </header>
 
   <section class="hero">
-    <h1>Hello, I'm Rohit</h1>
-    <h3 id="typing"></h3>
-    <p>I build responsive and user-friendly web applications.</p>
+    <div class="hero-content">
+      <h1>Hello, I'm Rohit</h1>
+      <h3>Full Stack Developer</h3>
+      <p class="tagline">I build clean, functional & responsive web experiences.</p>
+
+      <span class="intro-btn" onclick="showIntro()">📖 Introduction</span>
+      <a href="/Rohit-Portfolio/resume.pdf" download class="intro-btn resume-btn">⬇️ Download Resume</a>
+
+      <div class="socials">
+        <a href="https://github.com/RohitThakur9675" target="_blank"><img
+            src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub"></a>
+
+        <a href="https://www.linkedin.com/in/rohit-thakur" target="_blank"><img
+            src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn"></a>
+
+        <a href="https://instagram.com/yourusername" target="_blank"><img
+            src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram"></a>
+      </div>
+
+      <p id="introText" class="intro-text hidden">
+        Good morning, sir.
+
+        My name is Rohit Thakur. I have completed my B.Tech from AKTU University.
+        I have completed Full Stack Development, where I learned HTML, CSS, JavaScript, React, Node.js, and other
+        related technologies. I have also built several projects to improve my development skills and gain practical
+        experience.
+        As a fresher, I am looking for an opportunity where I can learn from experienced professionals, improve my
+        skills, and contribute to the company's success.
+
+        Thank you.
+      </p>
+    </div>
+    <div class="hero-image">
+      <img src="/Rohit-Portfolio/image/dun.jpg" alt="">
+    </div>
+    <div class="scroll-down">
+      <a href="#about">⌄</a>
+    </div>
   </section>
 
   <section id="about">
     <h2>About Me</h2>
     <p>
-      I am a passionate Full Stack Developer with knowledge of
-      HTML, CSS, JavaScript, React.js, Node.js, Express.js and MongoDB.
-      I enjoy building scalable and responsive web applications.
+      Final-year B.Tech Computer Science student specializing in Full Stack Web Development. Built
+      and deployed 3 projects including a real-time WebRTC video calling app, an AI-powered chat tool
+      using OpenAI API, and a stock trading platform clone. Proficient in React.js, Node.js, Express.js,
+      MongoDB, and advanced integrations like JWT authentication, bcrypt, CORS, and Socket.IO.
+      Seeking an entry-level developer role to contribute to scalable and user-centric web application
     </p>
   </section>
 
@@ -48,8 +85,8 @@
       <div class="card" onclick="showInfo('mongodb')">MongoDB</div>
     </div>
     <div id="skill-info">
-    Click on a skill to see details.
-  </div>
+      Click on a skill to see details.
+    </div>
 
   </section>
 
