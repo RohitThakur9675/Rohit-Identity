@@ -66,7 +66,7 @@ nav ul li a:hover{
 .hero-content{
   flex: 1;
   max-width: 600px;
-  background: linear-gradient(135deg,#0F172A,#1e293b);
+   background: linear-gradient(135deg,#0F172A,#f0fdfa);
   color: white;
   padding: 40px;
   border-radius: 18px;
@@ -199,15 +199,15 @@ footer{
   margin-top: 18px;
   font-size: 16px;
   line-height: 1.7;
-  max-height: 220px;
   opacity: 1;
-  transition: .4s;
+  max-height: 1000px;
+  overflow: hidden;
+  transition: max-height .5s ease, opacity .5s ease;
 }
 
 .hidden{
   max-height: 0;
   opacity: 0;
-  margin-top: 0;
   overflow: hidden;
 }
 
