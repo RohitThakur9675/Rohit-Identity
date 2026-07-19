@@ -40,11 +40,19 @@ nav ul{
   list-style: none;
   gap: 25px;
 }
+nav h2  {
+  color: #38bdf8;
+  font-size: 20px;
+  font-weight: 500;
+  font-style: italic;
+}
 
 nav ul li a{
   color: white;
   text-decoration: none;
   transition: .3s;
+  font-size: 20px;
+  font-weight: 400;
 }
 
 nav ul li a:hover{
