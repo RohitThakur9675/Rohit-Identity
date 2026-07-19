@@ -278,102 +278,33 @@ footer{
    Responsive Design
 =========================== */
 
-@media (max-width: 992px){
 
-  header{
-    padding: 15px 25px;
-  }
-
-  nav{
-    flex-direction: column;
-    gap: 15px;
-  }
-
-  nav h2{
-    font-size: 24px;
-  }
-
-  nav ul{
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 15px;
-  }
-
-  .hero{
-    flex-direction: column-reverse;
-    text-align: center;
-    padding: 60px 25px;
-    gap: 40px;
-    min-height: auto;
-  }
-
-  .hero-content{
-    max-width: 100%;
-    padding: 30px;
-  }
-
-  .hero-content h1{
-    font-size: 40px;
-  }
-
-  .hero-content h3{
-    font-size: 24px;
-  }
-
-  .hero-image img{
-    width: 280px;
-    height: 280px;
-  }
-
-  .socials{
-    justify-content: center;
-  }
-
-  .cards{
-    justify-content: center;
-  }
-
-  .resume-btn{
-    display: inline-block;
-    margin-top: 12px;
-    margin-left: 0;
-  }
-
-  .scroll-down{
-    display: none;
-  }
-
-  section{
-    padding: 60px 25px;
-  }
+#contact{
+    text-align:center;
+    padding:60px 8%;
 }
 
-@media (max-width: 576px){
+#contact p{
+    margin:12px 0;
+    font-size:18px;
+}
 
-  .hero-content h1{
-    font-size: 32px;
-  }
+.contact-btns{
+    margin-top:30px;
+}
 
-  .hero-content h3{
-    font-size: 20px;
-  }
+.contact-btns a{
+    display:inline-block;
+    margin:10px;
+    padding:12px 28px;
+    text-decoration:none;
+    color:white;
+    background:#0F172A;
+    border-radius:30px;
+    transition:.3s;
+}
 
-  .hero-image img{
-    width: 220px;
-    height: 220px;
-  }
-
-  .card{
-    width: 100%;
-    text-align: center;
-  }
-
-  .project{
-    padding: 20px;
-  }
-
-  nav ul{
-    flex-direction: column;
-    align-items: center;
-  }
+.contact-btns a:hover{
+    background:#2563eb;
+    transform:translateY(-5px);
 }
